@@ -1,25 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-body,
-h1,
-h2,
-h3,
-h4,
-ul,
-li,
-a,
-p {
-  margin: 0;
-  padding: 0;
-}
-ul {
-  list-style: 0;
-}
-a {
-  text-decoration: none;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
+/* reset css */
+@import url(./reset.css);
+
+/* container */
+@import url(./container.css);
+/* principal */
+@import url(../css/primcipal/header.css);

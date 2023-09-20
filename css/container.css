@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "servicos"
+    "quemSomos"
+    "depoimentos"
+    "contatos";
+}
+.header {
+  background-color: aqua;
+}
+.servicos {
+  background-color: blueviolet;
+}
+.quemSomos {
+  background-color: chartreuse;
+}
+.depoimentos {
+  background-color: brown;
+}
+.contatos {
+  background-color: cadetblue;
+}
