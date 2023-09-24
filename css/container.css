@@ -6,10 +6,7 @@
     "quemSomos"
     "depoimentos"
     "contatos";
-}
-.servicos {
-  background-color: blueviolet;
-  grid-area: servicos;
+  margin: 0 auto;
 }
 .quemSomos {
   background-color: chartreuse;
