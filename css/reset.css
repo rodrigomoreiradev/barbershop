@@ -14,7 +14,7 @@ p {
   padding: 0;
 }
 ul {
-  list-style: 0;
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -22,4 +22,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }

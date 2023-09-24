@@ -7,18 +7,19 @@
     "depoimentos"
     "contatos";
 }
-.header {
-  background-color: aqua;
-}
 .servicos {
   background-color: blueviolet;
+  grid-area: servicos;
 }
 .quemSomos {
   background-color: chartreuse;
+  grid-area: quemSomos;
 }
 .depoimentos {
   background-color: brown;
+  grid-area: depoimentos;
 }
 .contatos {
   background-color: cadetblue;
+  grid-area: contatos;
 }
