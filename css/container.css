@@ -8,10 +8,6 @@
     "contatos";
   margin: 0 auto;
 }
-.quemSomos {
-  background-color: chartreuse;
-  grid-area: quemSomos;
-}
 .depoimentos {
   background-color: brown;
   grid-area: depoimentos;
