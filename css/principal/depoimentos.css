@@ -1,0 +1,36 @@
+.depoimentos {
+  grid-area: depoimentos;
+  padding: 60px 10px;
+}
+.depoimentos h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.depoimento-card {
+  margin-bottom: 32px;
+  border-bottom: 2px solid #bd79c8;
+  padding: 30px 0;
+}
+.depoimento-card:last-child {
+  border: none;
+}
+.depoimento-card p {
+  font-size: 1.2rem;
+  padding-top: 8px;
+}
+.depoimento-card span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+}
+.depoimento-card span::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 30px;
+  background: #bd79c8;
+  z-index: -1;
+  border-radius: 5px;
+}

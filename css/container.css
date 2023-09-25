@@ -8,10 +8,6 @@
     "contatos";
   margin: 0 auto;
 }
-.depoimentos {
-  background-color: brown;
-  grid-area: depoimentos;
-}
 .contatos {
   background-color: cadetblue;
   grid-area: contatos;
