@@ -8,3 +8,13 @@
     "contatos";
   margin: 0 auto;
 }
+@media (481px <= width <=991px) {
+  .container {
+    grid-template-areas:
+      "header header"
+      "servicos servicos"
+      "quemSomos quemSomos"
+      "depoimentos depoimentos"
+      "contatos contatos";
+  }
+}
