@@ -10,8 +10,14 @@
   margin-bottom: 60px;
 }
 .contatos address {
-  border-bottom: 2px solid #bd79c8;
   padding-bottom: 30px;
+}
+.contatos address::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding-top: 32px;
+  width: 300px;
 }
 .contatos address,
 .contatos p {
