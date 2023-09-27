@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.3);
 }
 .header-logo-menu {
   display: flex;
@@ -41,6 +41,7 @@
 }
 #btnMenu {
   padding-right: 10px;
+  color: #f5f5f5;
 }
 #nav a {
   display: block;
