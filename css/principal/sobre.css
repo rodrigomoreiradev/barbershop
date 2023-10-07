@@ -1,0 +1,12 @@
+#sobre {
+  background: var(--cor1);
+}
+#sobre h2,
+#sobre p,
+#sobre picture {
+  color: var(--cor5);
+  grid-column: 1/-1;
+}
+#sobre p {
+  padding-bottom: 16px;
+}

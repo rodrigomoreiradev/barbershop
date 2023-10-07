@@ -1,29 +1,26 @@
-.contatos {
-  background: #040404;
-  grid-area: contatos;
-  padding: 30px 10px;
-  color: #f5f5f5;
+#contatos {
+  background: var(--cor1);
 }
-.contatos h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 60px;
+#contatos h2,
+#contatos address,
+#contatos p,
+#contatos h4,
+#contatos-logo {
+  grid-column: 1/-1;
+  color: var(--cor5);
 }
-.contatos address {
-  padding-bottom: 30px;
-}
-.contatos address::after {
+#contatos address::after {
   content: "";
-  display: block;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  padding-top: 32px;
-  width: 300px;
+  border-bottom: 2px solid var(--cor2);
 }
-.contatos address,
-.contatos p {
-  font-size: 1.5rem;
-  line-height: 1.3;
+#contatos a {
+  color: var(--cor5);
+  font-weight: bold;
 }
-.contatos p {
-  padding: 16px 0;
+#contatos h4 {
+  font-weight: bold;
+}
+#contatos-logo {
+  padding: 8px 0;
+  font-weight: bold;
 }

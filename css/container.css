@@ -8,7 +8,7 @@
     "contatos";
   margin: 0 auto;
 }
-@media (481px <= width <=991px) {
+@media (min-width: 768px) {
   .container {
     grid-template-areas:
       "header header"
@@ -16,5 +16,15 @@
       "quemSomos quemSomos"
       "depoimentos depoimentos"
       "contatos contatos";
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    grid-template-areas:
+      "header header header"
+      "servicos servicos servicos"
+      "quemSomos quemSomos quemSomos"
+      "depoimentos depoimentos depoimentos"
+      "contatos contatos contatos";
   }
 }

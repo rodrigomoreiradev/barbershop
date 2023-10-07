@@ -1,11 +1,13 @@
-/* reset css */
+/*reset css*/
 @import url(./reset.css);
+/* base css */
+@import url(./base-style.css);
+/* media query breakpoints */
+@import url(./breakpoints.css);
 
-/* container */
-@import url(./container.css);
 /* principal */
-@import url(../css/principal/header.css);
-@import url(../css/principal/servicos.css);
-@import url(../css/principal/quemSomos.css);
-@import url(../css/principal/depoimentos.css);
-@import url(../css/principal/contatos.css);
+@import url(./principal/header.css);
+@import url(./principal/servicos.css);
+@import url(./principal/sobre.css);
+@import url(./principal/depoimentos.css);
+@import url(./principal/contatos.css);
