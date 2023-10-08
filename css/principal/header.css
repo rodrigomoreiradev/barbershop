@@ -2,15 +2,43 @@
 #header {
   background: var(--cor1);
 }
+#nav {
+  grid-column: 8;
+  align-self: center;
+  justify-self: end;
+}
 #logo {
-  color: var(--cor5);
   grid-column: 1/4;
-  grid-row: 1;
+  color: var(--cor5);
   padding: 16px 0;
   font-weight: bold;
 }
 #menu {
-  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  display: block;
+  height: 0px;
+  position: absolute;
+  top: 54px;
+  width: 100%;
+  right: 0;
+  z-index: 1000;
+  visibility: hidden;
+  overflow-y: hidden;
+  transition: 0.6s;
+}
+#nav.ativo #menu {
+  height: 26vh;
+  overflow: auto;
+  visibility: visible;
+}
+#menu a {
+  border-bottom: 1px solid var(--cor1);
+  color: var(--cor5);
+  display: block;
+  padding: 8px;
+}
+#menu a:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 #header picture {
   grid-column: 1/-1;
