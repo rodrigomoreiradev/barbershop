@@ -2,7 +2,7 @@
 :root {
   --cor1: #141414;
   --cor2: #4d4d4d;
-  --cor3: #7a7a7a;
+  --cor3: #a3a3a3;
   --cor4: #e0e0e0;
   --cor5: #f5f5f5;
   /* ----------- */
@@ -11,8 +11,12 @@
   --primary3: #f7b300;
   --primary4: #f7f700;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "SourceSans3";
+  background: var(--cor5);
 }
 /* fonts */
 @font-face {
@@ -44,36 +48,31 @@ h2 {
   border-bottom: 2px solid var(--primary2);
   line-height: 1.5;
   width: max-content;
-  margin: 30px auto;
+  margin: 0 auto 30px auto;
 }
 h3,
-h4 {
+h4,
+p,
+a {
   font-size: 1.1em;
 }
+.bg-color {
+  background: var(--cor1);
+}
 .button {
+  display: inline-block;
   background: none;
   border: 2px solid var(--primary3);
   box-shadow: 1px 2px 3px var(--primary1);
   color: var(--primary3);
-  font-size: 1.2em;
   font-weight: bold;
   padding: 6px 16px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.3s;
+  border-radius: 5px;
 }
 .button:hover {
   background: var(--primary3);
   color: var(--primary1);
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-}
-#header,
-#servicos,
-#sobre,
-#depoimentos,
-#contatos {
-  padding: 0px 10px 30px 10px;
 }

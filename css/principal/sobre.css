@@ -1,12 +1,43 @@
-#sobre {
-  background: var(--cor1);
-}
-#sobre h2,
-#sobre p,
-#sobre picture {
+.content-sobre h2 {
   color: var(--cor5);
-  grid-column: 1/-1;
+  padding-top: 20px;
 }
-#sobre p {
+.content-sobre p {
+  color: var(--cor4);
+  text-align: center;
   padding-bottom: 16px;
+}
+@media screen and (min-width: 620px) {
+  .sobre-shadow {
+    box-shadow: inset 0 -100px 0 var(--primary3);
+  }
+  .sobre {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .content-sobre {
+    display: flex;
+    padding: 60px 30px;
+    align-items: center;
+  }
+  .sobre-content {
+    flex: 1 1 360px;
+    padding-right: 16px;
+  }
+  .sobre-content p {
+    font-size: 0.8em;
+  }
+  .sobre-img {
+    flex: 1 1 460px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .sobre {
+    max-width: 960px;
+  }
+  .sobre h2 {
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1200px) {
 }

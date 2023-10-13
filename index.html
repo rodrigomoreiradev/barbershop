@@ -12,150 +12,236 @@
 </head>
 
 <body>
-  <header class="grid" id="header">
-    <a id="logo" href="#">Barber Shop</a>
-    <nav id="nav">
-      <button id="btnMenu">Menu
-        <span id="hamburguer"></span>
-      </button>
-      <ul id="menu">
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
-        <li><a href="#contatos">Contatos</a></li>
-      </ul>
-    </nav>
 
-    <picture>
-      <source media="(max-width: 768px)" srcset="./assets/img/img-header-pequena.jpg">
-      <img src="./assets/img/img-header.jpg" alt="BarberShop">
-    </picture>
+  <div class="bg-color header-shadow">
 
-    <h1>UNINDO BARBA CABELO,BIGÓDE E...CERVEJA.</h1>
-    <p>Descubra o estilo moderno na nossa barbearia. Cortes e barbas de vanguarda em um ambiente único. Marque sua experiência hoje mesmo!</p>
+    <header class="header" id="header">
+      <div class="header-menu">
+        <a class="logo" href="#">Barber Shop</a>
+        <nav id="nav">
+          <button id="btnMenu">Menu
+            <span id="hamburguer"></span>
+          </button>
 
-    <a class="button" href="#">Agende um horário</a>
+          <ul id="menu">
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
 
-  </header>
+      <div class="welcome">
+        <div class="welcome-img">
+          <img src="./assets/img/img-header-p.jpg" alt="BarberShop">
+        </div>
+        <div class="welcome-content">
+          <h1>UNINDO BARBA CABELO,BIGÓDE E...CERVEJA.</h1>
+          <p>Descubra o estilo moderno na nossa barbearia. Cortes e barbas de vanguarda em um ambiente único. Marque sua experiência hoje mesmo!</p>
+          <a class="button" href="#">Agende um horário</a>
+        </div>
+      </div>
 
-  <section class="grid" id="servicos">
+    </header>
+  </div>
+
+
+  <section class="servicos" id="servicos">
+
     <h2>Nossos serviços</h2>
     <p>Serviços de barbearia e corte, onde a tradição encontra a inovação. Barbas perfeitamente cuidadas, cortes de cabelo feitos sob medida, tratamentos exclusivos, massagens relaxantes e consultoria de estilo personalizada. Vivencie uma experiência revolucionária de estilo e bem-estar.</p>
 
+    <div class="servicos-card">
 
+      <div class="card">
+        <div class="card-header">
+          <img src="assets/img/img-barba-pequena.jpg" alt="">
+          <h3>Barba e Bigode</h3>
+        </div>
+        <div class="card-body">
+          <p>Na nossa barbearia, não tratamos apenas da sua barba; nós a transformamos em uma obra-prima. Imagine uma barba que não apenas faz você parecer confiante, mas também faz você se sentir impecável.
+          </p>
+        </div>
+        <div class="card-footer">
+          <a class="button" href="#">Agendar!</a>
+        </div>
+      </div>
 
-    <h3>Barba e Bigode</h3>
-    <picture>
-      <source media="(max-width: 768px)" srcset="./assets/img/img-barba-pequena.jpg">
-      <img src="./assets/img/img-barba-p.jpg" alt="Barba e Bigode">
-    </picture>
-    <p>Na nossa barbearia, não tratamos apenas da sua barba; nós a transformamos em uma obra-prima. Imagine uma barba que não apenas faz você parecer confiante, mas também faz você se sentir impecável.</p>
+      <div class="card">
+        <div class="card-header">
+          <img src="assets/img/img-corte-pequeno.jpg" alt="">
+          <h3>Cortes de Cabelo</h3>
+        </div>
+        <div class="card-body">
+          <p>No coração da nossa barbearia, não estamos apenas cortando cabelo; estamos esculpindo confiança, estilo e autoexpressão. Imagine um corte de cabelo que não apenas se encaixa perfeitamente no seu rosto, mas também reflete sua personalidade única.</p>
+        </div>
+        <div class="card-footer">
+          <a class="button" href="#">Agendar!</a>
+        </div>
+      </div>
 
-    <a class="button" href="#">Saiba Mais!</a>
+      <div class="card">
+        <div class="card-header">
+          <img src="assets/img/img-pintura-pequena.jpg" alt="">
+          <h3>Coloração</h3>
+        </div>
+        <div class="card-body">
+          <p>A coloração não é apenas sobre mudar a cor do seu cabelo; é sobre trazer vida, energia e confiança ao seu visual. Imagine-se com uma cor que realça sua personalidade, ilumina seu rosto e reflete sua essência única.</p>
+        </div>
+        <div class="card-footer">
+          <a class="button" href="#">Agendar!</a>
+        </div>
+      </div>
 
-    <h3>Cortes de Cabelo</h3>
-    <picture>
-      <source media="(max-width: 768px)" srcset="././assets/img/img-corte-pequeno.jpg">
-      <img src="./assets/img/img-corte.jpg" alt="Corte de Cabelo">
-    </picture>
+      <div class="card">
+        <div class="card-header">
+          <img src="assets/img/img-tattoo-pequena.jpg" alt="">
+          <h3>Tattoo</h3>
+        </div>
+        <div class="card-body">
+          <p>Não apenas gravamos tinta na pele; eternizamos histórias, paixões e personalidades. Imagine uma obra-prima artística que não apenas adorna seu corpo, mas também conta sua narrativa única.</p>
+        </div>
+        <div class="card-footer">
+          <a class="button" href="#">Agendar!</a>
+        </div>
+      </div>
 
-    <p>No coração da nossa barbearia, não estamos apenas cortando cabelo; estamos esculpindo confiança, estilo e autoexpressão. Imagine um corte de cabelo que não apenas se encaixa perfeitamente no seu rosto, mas também reflete sua personalidade única.</p>
+      <div class="card">
+        <div class="card-header">
+          <img src="assets/img/img-estilo-pequeno.jpg" alt="">
+          <h3>Consultoria de Estilo</h3>
+        </div>
+        <div class="card-body">
+          <p>Bem-vindo à nossa Consultoria de Estilo, onde a moda encontra a autenticidade. Não se trata apenas de roupas; é sobre descobrir sua verdadeira essência e expressá-la com confiança e elegância.</p>
+        </div>
+        <div class="card-footer">
+          <a class="button" href="#">Agendar!</a>
+        </div>
+      </div>
 
-    <a class="button" href="#">Saiba Mais!</a>
+      <div class="card">
+        <div class="card-header">
+          <img src="assets/img/img-facial-pequena.jpg" alt="">
+          <h3>Tratamentos Faciais</h3>
+        </div>
+        <div class="card-body">
+          <p>Imagine um rosto resplandecente de vitalidade, livre de imperfeições e repleto de juventude. Está na hora de investir na sua pele, trazendo uma luminosidade que brilha de dentro para fora.</p>
+        </div>
+        <div class="card-footer">
+          <a class="button" href="#">Agendar!</a>
+        </div>
+      </div>
+    </div>
 
-    <h3>Coloração</h3>
-    <picture>
-      <source media="(max-width: 768px)" srcset="././assets/img/img-pintura-pequena.jpg">
-      <img src="./assets/img/img-pintura.jpg" alt="Corte de Cabelo">
-    </picture>
-    <p>A coloração não é apenas sobre mudar a cor do seu cabelo; é sobre trazer vida, energia e confiança ao seu visual. Imagine-se com uma cor que realça sua personalidade, ilumina seu rosto e reflete sua essência única.</p>
-
-    <a class="button" href="#">Saiba Mais!</a>
-
-    <h3>Tattoo</h3>
-    <picture>
-      <source media="(max-width: 768px)" srcset="./assets/img/img-tattoo-pequena.jpg">
-      <img src="./assets/img/img-tattoo.jpg" alt="Estudio de Tattoo">
-    </picture>
-    <p>Não apenas gravamos tinta na pele; eternizamos histórias, paixões e personalidades. Imagine uma obra-prima artística que não apenas adorna seu corpo, mas também conta sua narrativa única.</p>
-
-    <a class="button" href="#">Saiba Mais!</a>
-
-
-    <h3>Consultoria de Estilo</h3>
-    <picture>
-      <source media="(max-width: 768px)" srcset="./assets/img/img-estilo-pequeno.jpg">
-      <img src="./assets/img/img-estilo.jpg" alt="Estilo">
-    </picture>
-
-    <p>Bem-vindo à nossa Consultoria de Estilo, onde a moda encontra a autenticidade. Não se trata apenas de roupas; é sobre descobrir sua verdadeira essência e expressá-la com confiança e elegância.</p>
-
-    <a class="button" href="#">Saiba Mais!</a>
-
-    <h3>Tratamentos Faciais</h3>
-    <picture>
-      <source media="(max-width: 768px)" srcset="./assets/img/img-facial-pequena.jpg">
-      <img src="./assets/img/img-facial.jpg" alt="Tratamento Facial">
-    </picture>
-    <p>Imagine um rosto resplandecente de vitalidade, livre de imperfeições e repleto de juventude. Está na hora de investir na sua pele, trazendo uma luminosidade que brilha de dentro para fora.</p>
-
-    <a class="button" href="#">Saiba Mais!</a>
 
   </section>
 
+  <div class=" bg-color ">
+    <section class="sobre" id="sobre">
+      <div class="content-sobre">
 
-  <section class="grid" id="sobre">
-    <h2>Quem somos</h2>
+        <div class="sobre-content">
+          <h2>Quem somos</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam a eros bibendum laoreet. Curabitur lacus magna, accumsan egestas sapien sit amet, laoreet luctus libero. Integer eget tincidunt lacus. Nam lobortis nibh facilisis, tincidunt magna vitae, faucibus tellus. Quisque quis eros id tortor ultrices accumsan. Proin at lobortis</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum placeat odio quis optio consequuntur, laborum culpa vero architecto eum sed, dolore dolor nesciunt voluptas voluptatibus iusto ipsa. Inventore, possimus corrupti.</p>
+        </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam a eros bibendum laoreet. Curabitur lacus magna, accumsan egestas sapien sit amet, laoreet luctus libero. Integer eget tincidunt lacus. Nam lobortis nibh facilisis, tincidunt magna vitae, faucibus tellus. Quisque quis eros id tortor ultrices accumsan. Proin at lobortis</p>
+        <div class="sobre-img">
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum placeat odio quis optio consequuntur, laborum culpa vero architecto eum sed, dolore dolor nesciunt voluptas voluptatibus iusto ipsa. Inventore, possimus corrupti.</p>
+          <img src="./assets/img/img-quem-somos-p.jpg" alt="Quem somos">
 
-    <picture>
-      <source media="(max-width: 768px)" srcset="./assets/img/img-quem-somos-p.jpg">
-      <img src="./assets/img/img-quem-somos.jpg" alt="Quem somos">
-    </picture>
+        </div>
+      </div>
 
-  </section>
+    </section>
+  </div>
 
-  <section class="grid" id="depoimentos">
-    <h2>Depoimentos</h2>
+  <div class="depoimentos-bg">
+    <section class="depoimentos" id="depoimentos">
+      <h2>Depoimentos</h2>
 
-    <img src="./assets/img//dep-1.png" alt="Luis">
+      <div class="depoimentos-card">
+        <div class="card">
 
-    <span>Luis</span>
-    <p>Lugar muito confortável, boa localização e muito fácil estacionar. Além de ter excelentes e competentes profissionais. Recomendo!</p>
+          <div class="card-header">
+            <img src="./assets/img//dep-1.png" alt="Luis">
+          </div>
 
-    <img src="./assets/img//dep-2.png" alt="Claudio">
+          <div class="card-body">
+            <span>Luis</span>
+            <p>Lugar muito confortável, boa localização e muito fácil estacionar. Além de ter excelentes e competentes profissionais. Recomendo!</p>
+          </div>
 
-    <span>Claudio</span>
-    <p>Sempre um corte impecável! Atendimento top, preço muito bom! Tudo de bom! Sou cliente fiel!</p>
+        </div>
 
-    <img src="./assets/img//dep-3.png" alt="Carlos">
+        <div class="card">
 
-    <span>Carlos</span>
-    <p>Muito top a barbearia Carlinhos tem 22 anos de trabalho, são profissionais bem atualizado sempre buscando novidades</p>
+          <div class="card-header">
+            <img src="./assets/img//dep-2.png" alt="Claudio">
+          </div>
 
-    <img src="./assets/img//dep-4.png" alt="Leandro">
+          <div class="card-body">
+            <span>Claudio</span>
+            <p>Sempre um corte impecável! Atendimento top, preço muito bom! Tudo de bom! Sou cliente fiel!</p>
+          </div>
+
+        </div>
 
 
-    <span>Leandro</span>
-    <p>Sem dúvidas um ótimo lugar com profissional super qualificado que se mántem sempre atualizado e buscando mais conhecimentos por gostar doque Faz!!</p>
-  </section>
+        <div class="card">
 
-  <footer class="grid" id="contatos">
-    <h2>Contatos</h2>
+          <div class="card-header">
+            <img src="./assets/img//dep-3.png" alt="Carlos">
+          </div>
 
-    <address>Praça da Bandeira, nº7 - Centro Histórico - Santana de Parnaíba - SP</address>
-    <p>Telefone: (11) 99629-4752</p>
-    <h4>Horário de funcionamento:</h4>
-    <p>Seg a sáb das 09hs as 20hs</p>
+          <div class="card-body">
+            <span>Carlos</span>
+            <p>Muito top a barbearia Carlinhos tem 22 anos de trabalho, são profissionais bem atualizado sempre buscando novidades</p>
+          </div>
 
-    <a id="contatos-logo" href="#">Barber Shop</a>
-    <p><a href="https://www.linkedin.com/in/rodrigojsmoreira/" target="_blank">Rodrigo Moreira</a>© Todos os direitos reservados</p>
-  </footer>
+        </div>
 
-  <script src="menu.js"></script>
+
+        <div class="card">
+
+          <div class="card-header">
+            <img src="./assets/img//dep-4.png" alt="Leandro">
+          </div>
+
+          <div class="card-body">
+            <span>Leandro</span>
+            <p>Sem dúvidas um ótimo lugar com profissional super qualificado que se mántem sempre atualizado e buscando mais conhecimentos por gostar doque Faz!!</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <div class="bg-color">
+    <footer class="contatos" id="contatos">
+      <h2>Contatos</h2>
+
+      <a id="contatos-logo" href="#">Barber Shop</a>
+      <div class="contatos-content">
+
+        <div class="local">
+          <address>Praça da Bandeira, nº7 - Centro Histórico - Santana de Parnaíba - SP</address>
+          <p>Telefone: (11) 99629-4752</p>
+        </div>
+
+        <div class="hora">
+          <p>Horário de funcionamento:</p>
+          <p>Seg a sáb das 09hs as 20hs</p>
+        </div>
+      </div>
+      <a class="dev" href="https://www.linkedin.com/in/rodrigojsmoreira/" target="_blank">Rodrigo Moreira© Todos os direitos reservados</a>
+    </footer>
+  </div>
+
+  <script src="menu-hamburguer/menu.js"></script>
 </body>
 
 </html>

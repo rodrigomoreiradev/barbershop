@@ -1,26 +1,89 @@
-#contatos {
-  background: var(--cor1);
+.contatos {
+  padding: 10px;
 }
-#contatos h2,
-#contatos address,
-#contatos p,
-#contatos h4,
-#contatos-logo {
-  grid-column: 1/-1;
+.contatos h2 {
   color: var(--cor5);
 }
-#contatos address::after {
-  content: "";
-  border-bottom: 2px solid var(--cor2);
-}
-#contatos a {
-  color: var(--cor5);
-  font-weight: bold;
-}
-#contatos h4 {
-  font-weight: bold;
-}
 #contatos-logo {
+  display: inline-block;
+  color: var(--cor5);
+  font-weight: 500;
   padding: 8px 0;
-  font-weight: bold;
+}
+#contatos-logo::before {
+  content: "";
+  display: inline-block;
+  border-radius: 2px;
+  width: 10px;
+  height: 10px;
+  background: var(--primary3);
+  transition: 0.3s;
+}
+#contatos-logo:hover::before {
+  width: 20px;
+}
+.contatos-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.contatos-content address,
+.contatos-content p {
+  color: var(--cor3);
+}
+.dev {
+  display: inline-block;
+  align-items: center;
+  color: var(--cor5);
+  font-size: 0.8em;
+  padding-top: 20px;
+}
+.dev::before {
+  content: "";
+  display: inline-block;
+  border-radius: 2px;
+  width: 10px;
+  height: 10px;
+  background: var(--primary3);
+  transition: 0.3s;
+}
+.dev:hover::before {
+  width: 20px;
+}
+@media screen and (min-width: 620px) {
+  .contatos {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .hora {
+    border-left: 2px solid var(--primary3);
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 20px;
+  }
+  .contatos {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  #contatos-logo {
+    padding-left: 30px;
+  }
+  .contatos-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .dev {
+    padding-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
 }
