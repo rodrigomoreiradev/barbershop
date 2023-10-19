@@ -50,6 +50,7 @@
   font-size: 0.8em;
   color: var(--cor5);
   margin-bottom: 16px;
+  padding: 0 16px;
 }
 .card-footer {
   text-align: center;
